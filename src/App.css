@@ -1,10 +1,18 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: ghostwhite;
+}
 
-
-
+.come{
+  margin: auto 15px;
+}
 
 main {
   max-width: 500px;
   margin: 0 auto
+  
 }
 
 .total-text {
@@ -16,6 +24,7 @@ main {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
+  margin-top: 200px;
 }
 
 input {
@@ -62,4 +71,11 @@ color: rgb(81,190,81)
 
 .danger {
   color: rgb(206,76,76)
+}
+.cool{
+  background-color: rgb(81,190,81);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-sizing: 25px;
 }

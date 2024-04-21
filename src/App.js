@@ -82,7 +82,7 @@ function App() {
 
   return (
     <main>
-      <div>
+      <div className="come">
         {renderTotal()}
         <div className='input-container'>
           <input type='text' placeholder="Income or Expenses" name="statement" style={showErrors.statement ? { borderColor: "rgb(206, 76, 76)" } : {}} value={input.statement} onChange={handleUpdateInput} />
@@ -91,7 +91,7 @@ function App() {
             <option value="expense">expense</option>
             <option value="income">income</option>
           </select>
-          <button onClick={handleAddNewStatement} className="success">+</button>
+          <button onClick={handleAddNewStatement} className="cool">+</button>
         </div>
         {statements.map(({ name, type, amount, date, id}) => (
           <div key={id} className="card">
